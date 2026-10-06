@@ -289,7 +289,7 @@ setTimeout(()=>{
     document.getElementById("totalLive").textContent=fmt(tv);
   },2000);
 },950);
-const LINKS={monthly:"",yearly:"",lifetime:""}; // paste your payment links here
+const LINKS={monthly:"https://onetapay.com/pp/MzMzOA==",yearly:"https://onetapay.com/pp/MzMzOQ==",lifetime:"https://onetapay.com/pp/MzM0MA=="}; // paste your payment links here
 function pay(plan){
   const url=LINKS[plan];
   if(!url){showToast("Payment link not set yet");return;}
